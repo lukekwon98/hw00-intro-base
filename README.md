@@ -5,6 +5,13 @@
 </p>
 <p align="center">(source: Ken Perlin)</p>
 
+## My Project
+- Project Description: I have created a 3D cube colored like the night sky, using 3D Worley noise for stars and 3D FBM Perlin noise for nebulae. The FBM noise is masked with a separate 3D Perlin noise function which is animated to make the nebulae appear to move. The cube rotates while it repeatedly shrinks and expands, and the color of the nebulae can be changed via the color selector GUI.
+- Screenshots:
+  <img width="2555" height="1276" alt="Screenshot 2026-08-30 225901" src="https://github.com/user-attachments/assets/a28676cb-7df7-4caf-a19e-0c47ab3e7962" />
+  <img width="2556" height="1007" alt="image" src="https://github.com/user-attachments/assets/c81212bd-0f0f-460f-a92d-52fa4ff8544f" />
+- Live Demo: https://lukekwon98.github.io/hw00-intro-base/
+
 ## Objective
 - Check that the tools and build configuration we will be using for the class works.
 - Start learning Typescript and WebGL2
