@@ -65,3 +65,5 @@ dist/
 
 # Vite cache
 .vite/
+
+.vs/

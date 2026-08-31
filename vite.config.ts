@@ -12,7 +12,10 @@ export default defineConfig({
   base: './',
   server: {
     port: 5660,
-    open: false,
+      open: false,
+      watch: {
+          ignored: ['**/.vs/**'],
+      }
   },
   build: {
     outDir: 'dist',
